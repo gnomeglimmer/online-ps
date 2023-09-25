@@ -5,7 +5,7 @@ body{
     
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:600px){
     .header-back .hd-img{
         content-visibility: hidden;
           
