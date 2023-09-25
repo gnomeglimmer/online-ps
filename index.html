@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+      </symbol>
+      <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+      </symbol>
+      <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </symbol>
+    </svg>
+      
+   <header>
+    
+    <nav class="navbar navbar-light fixed-top n-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Online Passport System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Online Passport System</h5>
+            
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+             
+              <button class="btn btn-outline-success g-3" type="submit">Apply Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+   </header>
+
+  <div class="header-back">
+    <div class="row">
+      <h1 class="col">We facilitate Sri Lankan citizens to apply <br> through online comfortably <br>at their fingertips.</h1>
+      
+        <img class="hd-img" src="./img.jpeg" alt="" srcset="">
+      
+    </div>
+    
+  </div>
+  
+  <div class="row f-button">
+    <button class="f-box shadow p-3 mb-5 bg-body rounded text-center border border-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <img src="./passport.png" alt="" srcset="">
+      <p class="h6 t-1">New Passport</p>
+      <p class="t-2">A Sri Lankan citizen by <br> descent or by registation can apply</p>
+    </button>
+    <button class="f-box shadow p-3 mb-5 bg-body rounded text-center border border-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <img src="./card_payment_40px.png" alt="" srcset="">
+      <p class="h6 t-1">Make Payment</p>
+      <p class="t-2">Make a payment with any payment methods that's available to you</p>
+    </button>
+    <button class="f-box shadow p-3 mb-5 bg-body rounded text-center border border-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+      <img src="./calendar_plus_64px.png" alt="" srcset="" style="width: 40px; height: 40px;">
+      <p class="h6 t-1">Change Appoinment</p>
+      <p class="t-2">Change the appoinment that you have already placed</p>
+
+    </button>
+    <button class="f-box shadow p-3 mb-5 bg-body rounded text-center border border-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <img src="./tick_box_40px.png" alt="" srcset="">
+      <p class="h6 t-1">Check Status</p>
+      <p class="t-2">Get real-time status updates on your passport application</p>
+    </button>
+  </div>
+  
+  
+
+<!-- Modal -->
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">USER VERIFICATION USING OTP</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <p>1. If you have already registered, Please enter your mobile number.</p>
+        </div>
+        <p>2. Registered Mobile Number <span class="r-m">*</span></p>
+        <div class="row g-3 container-fluid gap-1">
+          <input class="form-control form-control-sm" type="text" placeholder="074 XXXXXXX">
+          <button type="button" class="btn btn-primary  btn-sm">Send OTP</button>
+          <div class="alert alert-primary d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+            <div>
+              You will receive an OTP to your mobile
+            </div>
+            
+          </div>
+          
+          
+       </div>
+       
+      </div>
+      <div class="r-div p-3">
+        <img src="" alt="" srcset="">
+        <h5 style="font-size: 15px;" class="text-center">First-time users must register with the System. Please Register</h5>
+        <div class="d-flex justify-content-center container-fluid mt-3">
+          <button type="button" class="btn btn-warning btn-sm d-grid col-6 mx-auto">Register</button>
+        </div>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <div>
+    <p class="text-center text-muted">&copy; 2023 Developed by Praveen Wattegedara</p>
+  </div>
+</footer>
+
+
+
+
+
+
+    <!-- javascript -->
+    <script src="./bootstrap.min.js"></script>
+    <script src="./jquery.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
